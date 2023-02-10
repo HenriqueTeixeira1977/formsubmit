@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pesquisa de Satisfação - 2023</title>
+  <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body>
+
+  <section>
+
+    <h1>HT WebSites Builder</h1>
+    <h2>Pesquisa de Satisfação</h2>
+    <form action="https://formsubmit.co/contato@henriqueteixeiraoficial.com.br" method="POST">
+      <input type="hidden" name="_next" value="http://127.0.0.1:5500/sucesso.html">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_captcha" value="false">      
+      <div>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" placeholder="Seu Nome" required>
+      </div>
+     
+      <div>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="Seu Email" required>
+      </div>
+      
+      <div>
+        <label for="satisfaction">Como você classificaria sua satisfação com nosso serviço de criação de websites?</label>
+        <select id="satisfaction" name="satisfaction" required>
+          <option value="">Selecione uma opção</option>
+          <option value="very-satisfied">Muito satisfeito</option>
+          <option value="satisfied">Satisfeito</option>
+          <option value="neither">Nem satisfeito nem insatisfeito</option>
+          <option value="unsatisfied">Insatisfeito</option>
+          <option value="very-unsatisfied">Muito insatisfeito</option>
+        </select>
+      </div>
+      
+      <div class="coment">
+        <label for="comments">Comentários adicionais:</label>
+        <textarea id="comments" name="comments"></textarea>
+      </div>
+      
+      <div class="btn">
+        <input type="submit" value="Enviar">
+      </div>
+    </form>
+  </section>
+
+  <footer>
+    <p>henriqueteixeiraoficial.com.br</p>
+    <p>&copy;HnRqTxr</p>
+  </footer>
+  
+</body>
+</html>
